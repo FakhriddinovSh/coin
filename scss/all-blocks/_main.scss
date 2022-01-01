@@ -1,0 +1,87 @@
+.main{
+    position: relative;
+    background: rgba(0, 0, 0, 1);
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    &::after{
+        position: absolute;
+        content: "";
+        background: url(../../Images/Header&main/shade.png);
+        background-repeat: no-repeat;
+        height: 516px;
+        width: 1129px;
+        left: 120px;
+        top: 22px;
+    }
+    &__title{
+        display: flex;
+    }
+    &__title__desc{
+        position: relative;
+        font-family: "Lato";
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 220px;
+        color: white;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Header&main/Logo.png);
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100px;
+            top: 40px;
+            left: 850px;
+        }
+    }
+    &__title__2 > h2{
+        color: white;
+        font-family: "Lato";
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 350px;
+    }
+    &__btn{
+        width: 100%;
+        margin-left: 500px;
+        display: flex;
+        align-items: center;
+    }
+    &__btn__desc{
+        color: white;
+        width: 304px;
+        height: 93px;
+        font-family: Futura PT;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__btn__btn{
+        text-decoration: none;
+        color: white;
+        margin-left: 30px;
+        padding: 19px 22px;
+        background: rgba(255, 51, 51, 1);
+        border-radius: 1px;
+        font-family: Futura PT;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

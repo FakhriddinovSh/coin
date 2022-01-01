@@ -1,0 +1,59 @@
+.header{
+    background: rgba(0, 0, 0, 1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px;
+    padding-top: 20px;
+    &__logo{
+        display: flex;
+    }
+    &__nav{
+        display: flex;
+        list-style: none;
+        margin: 0 auto;
+    }
+    &__nav__item > a{
+        text-decoration: none;
+        color:rgba(255, 255, 255, 1);
+        padding-right: 60px;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 130%;
+        align-items: center;
+    }
+    &__network{
+        display: flex;
+        margin: 0 20px;
+    }
+    &__network > a{
+        padding-right: 22px;
+    }
+    &__login{
+        display: flex;
+        margin: 0 auto;
+    }
+    &__login > img{
+        display: flex;
+        padding-right: 12px;
+    }
+    &__login > a{
+        display: flex;
+        text-decoration: none;
+        font-family: "Futura PT", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        align-items: center;
+        color: #FF3333;
+    }
+}
+
+// Media section started
+
+

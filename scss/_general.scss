@@ -1,10 +1,11 @@
-// html{
-//     box-sizing: border-box;
-// }
-// *, *::after, *::before{
-//     box-sizing: inherit;
-// }
-// body{
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
 
-//     // font-family: ;
-// }
+body{
+    font-family: "Futura PT", sans-serif;
+    overflow-x: hidden;
+}
