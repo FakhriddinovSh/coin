@@ -1,36 +1,112 @@
 .pockets{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
-    padding: 0 120px;
-    &__top{
+    &__titles{
         display: flex;
-        align-items: top;
-        justify-content: space-between;
     }
-    &__top > h1{
-        width: 50%;
-        display: flex;
+    &__titles > h2{
         font-family: "Lato", sans-serif;
+        color: #000;
         font-size: 110px;
         font-style: normal;
         font-weight: 500;
         line-height: 143px;
         letter-spacing: 0em;
         text-align: left;
-        color: black;
-        margin-left: 100px;
         margin-top: 100px;
     }
-    &__top > p{
-        width: 40%;
+    &__titles > p{
         font-family: "Futura PT", sans-serif;
+        color: #000;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
-        margin-top: 150px;
+        margin-top: 190px;
+        width: 65%;
+        height: 93px;
+        padding-left: 320px;
+    }
+    &__cards{
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 120px;
+        margin-left: 90px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/pockets/left__btn.png);
+            background-repeat: no-repeat;
+            width: 60px;
+            height: 60px;
+            left: -90px;
+            cursor: pointer;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            background: url(../../Images/pockets/right__btn.png);
+            background-repeat: no-repeat;
+            width: 60px;
+            height: 60px;
+            z-index: -1px;
+            right: -20px;
+            cursor: pointer;
+        }
+    }
+    &__card{
+        position: relative;
+        border: 2px solid #FF3333;
+        border-radius: 8px;
+        margin-right: 40px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/pockets/VIP.png);
+            background-repeat: no-repeat;
+            width: 90px;
+            height: 90px;
+            top: -44px;
+            left: 90px;
+        }
+    }
+    &__card > h1{
+        padding-top: 63px;
+        padding-left: 84px;
+        padding-right: 84px;
+        color: #FF3333;
+        font-family: "Futura PT", sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    &__card__center{
+        font-family: "Futura PT", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+        color:  black;
+        padding-top: 10px;
+    }
+    &__card > p{
+        font-family: "Futura PT", sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+        padding-top: 50px;
     }
 }

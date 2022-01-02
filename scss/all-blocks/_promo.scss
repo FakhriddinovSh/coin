@@ -1,0 +1,35 @@
+.promo{
+    position: relative;
+    display: flex;
+    &::after{
+        position: absolute;
+        content: "";
+        background: url(../../Images/promo/romb.png);
+        background-repeat: no-repeat;
+        width: 220px;
+        height: 220px;
+        top: 160px;
+        left: 30px;
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../../Images/promo/romb.png);
+        background-repeat: no-repeat;
+        width: 220px;
+        height: 220px;
+        top: 160px;
+        z-index: -1px;
+        right: 30px;
+    }
+}
+.promo > h1{
+    font-family: "Lato", sans-serif;
+    color: red;
+    font-size: 300px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 520px;
+    letter-spacing: 0em;
+    margin-left: 300px;
+}

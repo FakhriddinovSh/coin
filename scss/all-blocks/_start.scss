@@ -1,0 +1,44 @@
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__title{
+        display: flex;
+    }
+    &__title > h1{
+        position: relative;
+        font-family: "Lato", sans-serif;
+        color: #000;
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 35%;
+        margin-left: 200px;
+        &::after{
+            content: "";
+            position: absolute;
+            background: url(../../Images/promo/romb2x.png);
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 200px;
+            top: 0;
+            right: -290px;
+        }
+    }
+    &__title > p{
+        font-family: "Futura PT", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        width: 31%;
+        margin-top: 201px;
+        margin-right: auto;
+    }
+}
