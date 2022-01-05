@@ -1,0 +1,213 @@
+.jara__content{
+    margin-top: 200px;
+}
+.jara__content > h1{
+    font-family: "Lato";
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    padding-left: 180px;
+    }
+.jara__content > p{
+    font-family: "Futura PT";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+
+
+.prizes{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin-top: 100px;
+    height: 902px;
+    &__cards{
+        display: flex;
+        width: 100%;
+    }
+    &__card{
+        position: relative;
+        margin-top: 242px;
+        margin-left: 160px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/jara/AirPods.png);
+            background-repeat: no-repeat;
+            width: 112px;
+            height: 100px;
+            top: -150px;
+        }
+    }
+    &__card > h1{
+        font-family: "Futura PT";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+    }
+    &__card > p{
+        font-family: "Futura PT";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+    }
+    &__card__2{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/jara/SmartWatcj.png);
+            background-repeat: no-repeat;
+            width: 98px;
+            height: 95px;
+            right: 15px;
+        }
+    }
+    &__card__3{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/jara/iphone11.png);
+            background-repeat: no-repeat;
+            width: 120px;
+            height: 120px;
+            right: 30px;
+        }
+    }
+    &__card__4{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/jara/Macbook.png);
+            background-repeat: no-repeat;
+            width: 120px;
+            height: 120px;
+            right: 30px;
+        }
+    }
+    &__contents > h1{
+        font-family: "Futura PT";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 43px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-left: 150px;
+        margin-top: 118px;
+    }
+    &__contents > p{
+        font-family: "Futura PT";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    &__rotation__bottom__contents__p:nth-child(1){
+        font-family: "Futura PT";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 150px;
+        margin-top: 40px;
+        width: 63%;
+    }
+    &__rotation__bottom__contents__p:nth-child(2){
+        font-family: "Futura PT";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 150px;
+        margin-top: 20px;
+        width: 60%;
+    }
+    &__rotation__percent{
+        border: 1px solid rgba(255, 51, 51, 0.5);
+        height: 82px;
+        width: 70%;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    &__rotation__percent{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__rotation__percent__block:nth-child(1){
+        font-family: "Futura PT";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 10px;
+    }
+    &__rotation__percent__block:nth-child(7){
+        padding-right: 10px;
+    }
+    &__rotation__percent__block > h1{
+        color: red;
+        font-family: "Futura PT";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__rotation__percent__block > p{
+        font-family: "Futura PT";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &__rotation__percent__block:nth-child(1) > p{
+        color: black;
+    }
+}
+
+
+
+

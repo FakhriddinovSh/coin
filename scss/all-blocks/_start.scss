@@ -29,7 +29,7 @@
         }
     }
     &__title > p{
-        font-family: "Futura PT", sans-serif;
+        font-family: Futura PT;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -40,5 +40,69 @@
         width: 31%;
         margin-top: 201px;
         margin-right: auto;
+    }
+}
+
+.box{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 2px solid #FF3333;
+    border-radius: 8px;
+    height: 501px;
+    &__title > p{
+        font-family: Futura PT;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+        width: 69%;
+        padding-top: 100px;
+        padding-left: 114px;
+    }
+    &__cards{
+        display: flex;
+    }
+    &__card{
+        position: relative;
+        margin-top: 40px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/start/x2.png);
+            background-repeat: no-repeat;
+            width: 85px;
+            height: 85px;
+            top: 40px;
+            left: 330px;
+        }
+    }
+    &__card > h1{
+        font-family: Futura PT;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 43px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: black;
+        padding-left: 114px;
+        margin-top: 50px;
+    }
+    &__card > p{
+        font-family: Futura PT;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+        padding-left: 114px;
+        width: 100%;
     }
 }
