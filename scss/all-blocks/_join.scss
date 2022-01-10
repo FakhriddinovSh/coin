@@ -1,0 +1,84 @@
+.join{
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    width: 100%;
+    &::after{
+        position: absolute;
+        content: "";
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
+        width: 100%;
+        height: 689px;
+        top: 50px;
+        opacity: 0.8;
+    }
+    &__content__1{
+        font-family: "Lato";
+        color: white;
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 190px;
+        padding-top: 200px;
+    }
+    &__content__2{
+        position: relative;
+        font-family: "Lato";
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-left: 320px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Header&main/Logo.png);
+            background-repeat: no-repeat;
+            width: 90px;
+            height: 90px;
+            top: 35px;
+            right: 370px;
+        }
+    }
+    &__content__3{
+        font-family: "Lato";
+        color: white;
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        margin-left: 320px;
+    }
+    &__button{
+        display: block;
+        margin-top: 80px;
+        margin-left: 580px;
+        padding: 19px 22px;
+        background-color: red;
+        color: white;
+    }
+    &__link{
+        display: block;
+        text-decoration: none;
+        color: red;
+        margin-left: 560px;
+        margin-top: 30px;
+        width: 260px;
+    }
+    &__link__3{
+        display: block;
+        text-decoration: none;
+        color: red;
+        margin-left: 560px;
+        margin-top: 16px;
+        width: 260px;
+    }
+}

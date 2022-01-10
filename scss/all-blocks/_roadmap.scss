@@ -5,6 +5,21 @@
     margin-top: 100px;
 }
 .roadmap{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1150px;
+        top: 100px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
+    }
+    &__cards__1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
     &__content{
         display: flex;
         align-items: center;
@@ -33,6 +48,50 @@
         text-align: left;
         margin-top: 172px;
         width: 298px;
-        margin-left: 151px;        
+    }
+    &__card{
+        z-index: 1;
+        width: 250px;
+        height: 260px;
+        background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+        box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
+        border-radius: 8px;
+        margin-right: 30px;
+    }  
+    &__card > h1{
+        font-family: "Futura PT";
+        font-size: 14px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    &__card > p{
+        font-family: "Futura PT";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    &__cards__2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__cards__3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
     }
 }
