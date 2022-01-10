@@ -1,0 +1,38 @@
+.road{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 100px;
+}
+.roadmap{
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__content > h1{
+        font-family: "Lato";
+        margin-top: 100px;
+        margin-left: 150px;
+        color: #fff;
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 143px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__content > p{
+        font-family: "Futura PT";
+        color: white;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 172px;
+        width: 298px;
+        margin-left: 151px;        
+    }
+}

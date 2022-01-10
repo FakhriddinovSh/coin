@@ -1,0 +1,49 @@
+.tesla{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin-top: 100px;
+    height: 902px;
+    &__cards{
+        display: flex;
+        width: 100%;
+    }
+    &__cards__card{
+        justify-content: space-between;
+        position: relative;
+        margin-top: 242px;
+        margin-left: 120px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/tesla/tesla-car.png);
+            background-repeat: no-repeat;
+            width: 142px;
+            height: 100px;
+            top: -150px;
+            right: 25px;
+        }
+    }
+    &__cards__card > h1{
+        font-family: "Futura PT";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    &__cards__card > p{
+        font-family: "Futura PT";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 193px;
+        padding-top: 10px;
+    }
+}
