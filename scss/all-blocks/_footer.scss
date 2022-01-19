@@ -1,0 +1,33 @@
+.main__footer{
+    background-color: #000;
+    height: 180px;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__nav__item{
+        list-style: none;
+        align-items: center;
+
+    }
+    &__nav__item > a{
+        text-decoration: none;
+        color:rgba(255, 255, 255, 1);
+        padding-right: 40px;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 130%;
+        align-items: center;
+    }
+}
